@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1" />
+
     <title>NFL Yardage</title>
+
+    <!-- Styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="text/javascript" src="scripts/main.js" defer></script>
+
 </head>
-<body>
-    <div id="vizContainer">
+<body class="container">
+    <div class="text-center">
+        <h1>NFL Yards Gained by Position</h1>
+    </div>
+    <div class="text-center" id="vizContainer">
         <div id="options"></div>
         <canvas id="chart"></canvas>
     </div>
