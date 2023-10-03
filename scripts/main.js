@@ -6,6 +6,8 @@ Program: Midterm Project
 File: main.js
 */
 
+// NFL Statistics Data from: https://www.kaggle.com/datasets/philiphyde1/nfl-stats-1999-2022?select=weekly_data_updated_08_23.csv
+
 let nfl_totalyards;
 let grouped_by_team;
 let grouped_by_season;
